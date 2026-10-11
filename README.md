@@ -1,6 +1,8 @@
 # minigame 2
 ## Devlog
-Write your Devlog here.
+1. An issue I encountered was doing only a calculation but not assigning it to a value. In the first step, I was only putting "time - _timeLeft" th8inking that was all I had to do because that is how I interpreted the instructions but once I got an error, I knew something was wrong (also it just looked wrong to me). I noticed had read the instructions wrong so instead I switched the values ("_timeLeft - time) but it was still an error. I tried putting "float" just because and still nothing. It took me a while to figure out but I was looking at the notes to see if there were any examples that could help but for me, not really. But then occurred to me that what I am doing is basically just math. I tried to think of it like a math problem, so I thought "if time is y and _timeLeft is x, it would be 'x - y' but then what would it equal to?" I was thinking about the equal sign. Finally, I was able to understand that I needed to not just subtract the value of time from the _timeLeft but also assign it to a variable (give it an equal sign the way my brain processed it). So instead of doing the operator '-' I used the operator '-=' because even in the example on the notes it said its equivalent to "x=x-y."
+2. The way I understand the string of text, is that you're assigning the variable "_spriteRenderer.color" equal to the value of a new color which would change colors from r, 0.2f, and I guess 0.2f again.
+   I think the period is used for the program to understand what kind of like thing you are using, like how texts will end in ".text" so in this case it's the color. The word 'new' is used to show that the value is going to be a new color. 
 
 ## Open-Source Assets
 - Pixel art environment & character sprites: https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
